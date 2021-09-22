@@ -10,7 +10,7 @@ AddEventHandler('taketreasure', function()
 	xPlayer.addInventoryItem('goldbar', math.random (1,7))
 end)
 
-RegisterNetEvent('alyrix-satis')
+RegisterServerEvent('alyrix-satis')
 AddEventHandler('alyrix-satis', function()
     local _source = source
 	local xPlayer = ESX.GetPlayerFromId(_source)
