@@ -7,7 +7,7 @@ Citizen.CreateThread(function()
     end
 end)
 
-
+local propspawned = false
 local altinlaralindi = false
 local itemsatildi = false
 local definealindi = false
