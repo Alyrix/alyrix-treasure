@@ -39,7 +39,10 @@ end)
 
 RegisterNetEvent('alyrix-createprop')
 AddEventHandler('alyrix-createprop', function()
+if not propspawned then
 CreateObject(object, definecoords.x, definecoords.y, definecoords.z, true, true, true)
+else
+exports['mythic_notify']:SendAlert('error', 'Prop zaten spawnlandı')      
 end)
     
 RegisterNetEvent('alyrix-taketreasure')
